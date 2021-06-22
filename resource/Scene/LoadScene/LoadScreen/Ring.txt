@@ -1,0 +1,17 @@
+#=============================================================================
+# Ring.txt
+# 2019/07/30
+# 20:34:04
+#=============================================================================
+#Set Transform_Position
+Transform_Position = 1769.000000 927.000000 999999.187500
+#Set Transform_Rotation
+Transform_Rotation = 0.000000 0.000000 0.000000
+#Set Transform_Scale
+Transform_Scale = 1.000000 1.000000 1.000000
+#Set RectTransform_Polygon
+RectTransform_Polygon = 150.000000 150.000000
+#Set RectTransform_Pivot
+RectTransform_Pivot = 0.500000 0.500000
+#Set Sprite_Color
+Sprite_Color = 1.000000 1.000000 0.000000 1.000000

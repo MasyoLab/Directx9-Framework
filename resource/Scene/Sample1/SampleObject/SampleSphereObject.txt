@@ -1,0 +1,21 @@
+#=============================================================================
+# SampleSphereObject.txt
+# 2019/08/18
+# 14:42:51
+#=============================================================================
+#Set Transform_Position
+Transform_Position = 0.000000 2.000000 0.000000
+#Set Transform_Rotation
+Transform_Rotation = 0.000000 0.000000 0.000000
+#Set Transform_Scale
+Transform_Scale = 1.000000 1.000000 1.000000
+#Set Material_Ambient
+Material_Ambient = 1.000000 1.000000 1.000000 1.000000
+#Set Material_Diffuse
+Material_Diffuse = 1.000000 1.000000 1.000000 1.000000
+#Set Material_Specular
+Material_Specular = 1.000000 1.000000 1.000000 1.000000
+#Set Material_Emissive
+Material_Emissive = 1.000000 1.000000 1.000000 1.000000
+#Set Material_Power
+Material_Power = 1.000000

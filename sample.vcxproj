@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sample.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="画像表示枠サイズ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\mslib\ImGui\imgui.cpp" />
+    <ClCompile Include="Source\mslib\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="Source\mslib\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Source\mslib\ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="Source\mslib\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Source\mslib\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Source\mslib\LineCircleCollider.cpp" />
+    <ClCompile Include="Source\mslib\Material.cpp" />
+    <ClCompile Include="Source\mslib\GUI.cpp" />
+    <ClCompile Include="Source\mslib\DistanceCollider.cpp" />
+    <ClCompile Include="Source\mslib\Collider.cpp" />
+    <ClCompile Include="Source\mslib\CameraControlMouse.cpp" />
+    <ClCompile Include="Source\LoadScene\LoadScene.cpp" />
+    <ClCompile Include="Source\LoadScene\LoadScreen.cpp" />
+    <ClCompile Include="Source\mslib\InOutFunction.cpp" />
+    <ClCompile Include="Source\mslib\EffekseerObject.cpp" />
+    <ClCompile Include="Source\mslib\BillboardObject.cpp" />
+    <ClCompile Include="Source\mslib\CubeObject.cpp" />
+    <ClCompile Include="Source\mslib\MeshObject.cpp" />
+    <ClCompile Include="Source\mslib\Debug3D.cpp" />
+    <ClCompile Include="Source\mslib\Fog.cpp" />
+    <ClCompile Include="Source\mslib\Grid.cpp" />
+    <ClCompile Include="Source\mslib\Light.cpp" />
+    <ClCompile Include="Source\Sample\Sample2\SampleObject.cpp" />
+    <ClCompile Include="Source\Sample\Sample2\TransformObject.cpp" />
+    <ClCompile Include="Source\Sample\Sample1\SampleObject.cpp" />
+    <ClCompile Include="Source\mslib\Camera.cpp" />
+    <ClCompile Include="Source\mslib\DrawTechnique.cpp" />
+    <ClCompile Include="Source\mslib\SceneManager.cpp" />
+    <ClCompile Include="Source\mslib\Debug.cpp" />
+    <ClCompile Include="Source\mslib\LockOn.cpp" />
+    <ClCompile Include="Source\mslib\RadioControl.cpp" />
+    <ClCompile Include="Source\main_system\GameWindow.cpp" />
+    <ClCompile Include="Source\main_system\Launcher.cpp" />
+    <ClCompile Include="Source\main_system\main.cpp" />
+    <ClCompile Include="Source\main_system\Screen.cpp" />
+    <ClCompile Include="Source\mslib\Activity.cpp" />
+    <ClCompile Include="Source\mslib\Billboard.cpp" />
+    <ClCompile Include="Source\mslib\string_encode.cpp" />
+    <ClCompile Include="Source\mslib\CreateBuffer.cpp" />
+    <ClCompile Include="Source\mslib\Cube.cpp" />
+    <ClCompile Include="Source\mslib\Device.cpp" />
+    <ClCompile Include="Source\mslib\DinputController.cpp" />
+    <ClCompile Include="Source\mslib\DinputKeyboard.cpp" />
+    <ClCompile Include="Source\mslib\DinputMouse.cpp" />
+    <ClCompile Include="Source\mslib\DirectInput.cpp" />
+    <ClCompile Include="Source\mslib\dx9math.cpp" />
+    <ClCompile Include="Source\mslib\Effect.cpp" />
+    <ClCompile Include="Source\mslib\EffekseerDX.cpp" />
+    <ClCompile Include="Source\mslib\file_path.cpp" />
+    <ClCompile Include="Source\mslib\GameObject.cpp" />
+    <ClCompile Include="Source\mslib\Initializer.cpp" />
+    <ClCompile Include="Source\mslib\Loader.cpp" />
+    <ClCompile Include="Source\mslib\Manager.cpp" />
+    <ClCompile Include="Source\mslib\Mesh.cpp" />
+    <ClCompile Include="Source\mslib\MsImGui.cpp" />
+    <ClCompile Include="Source\mslib\Renderer.cpp" />
+    <ClCompile Include="Source\mslib\RenderState.cpp" />
+    <ClCompile Include="Source\mslib\SamplerState.cpp" />
+    <ClCompile Include="Source\mslib\Sphere.cpp" />
+    <ClCompile Include="Source\mslib\Texture.cpp" />
+    <ClCompile Include="Source\mslib\Transform.cpp" />
+    <ClCompile Include="Source\mslib\WindowsAPI.cpp" />
+    <ClCompile Include="Source\mslib\Audio.cpp" />
+    <ClCompile Include="Source\mslib\XInputDX.cpp" />
+    <ClCompile Include="Source\mslib\XModel.cpp" />
+    <ClCompile Include="Source\mslib\RectTransform.cpp" />
+    <ClCompile Include="Source\mslib\Sprite.cpp" />
+    <ClCompile Include="Source\Sample\Sample1\Sample1.cpp" />
+    <ClCompile Include="Source\mslib\XModelObject.cpp" />
+    <ClCompile Include="Source\mslib\SphereObject.cpp" />
+    <ClCompile Include="Source\Sample\Sample2\Sample2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\mslib\get_path_and_file.h" />
+    <ClInclude Include="Source\mslib\ImGui\imconfig.h" />
+    <ClInclude Include="Source\mslib\ImGui\imgui.h" />
+    <ClInclude Include="Source\mslib\ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="Source\mslib\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="Source\mslib\ImGui\imgui_internal.h" />
+    <ClInclude Include="Source\mslib\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Source\mslib\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Source\mslib\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Source\mslib\LineCircleCollider.h" />
+    <ClInclude Include="Source\mslib\Material.h" />
+    <ClInclude Include="Source\mslib\GUI.h" />
+    <ClInclude Include="Source\mslib\DistanceCollider.h" />
+    <ClInclude Include="Source\mslib\Collider.h" />
+    <ClInclude Include="Source\mslib\CameraControlMouse.h" />
+    <ClInclude Include="Source\LoadScene\LoadScene.h" />
+    <ClInclude Include="Source\LoadScene\LoadScreen.h" />
+    <ClInclude Include="Source\mslib\InOutFunction.h" />
+    <ClInclude Include="Source\mslib\EffekseerObject.h" />
+    <ClInclude Include="Source\mslib\BillboardObject.h" />
+    <ClInclude Include="Source\mslib\CubeObject.h" />
+    <ClInclude Include="Source\mslib\MeshObject.h" />
+    <ClInclude Include="Source\mslib\Debug3D.h" />
+    <ClInclude Include="resource_list.h" />
+    <ClInclude Include="Source\mslib\Fog.h" />
+    <ClInclude Include="Source\mslib\Grid.h" />
+    <ClInclude Include="Source\mslib\Light.h" />
+    <ClInclude Include="Source\mslib\mslib_afx.h" />
+    <ClInclude Include="Source\mslib\string_encode.hpp" />
+    <ClInclude Include="Source\Sample\Sample2\SampleObject.h" />
+    <ClInclude Include="Source\Sample\Sample2\TransformObject.h" />
+    <ClInclude Include="Source\Sample\Sample1\SampleObject.h" />
+    <ClInclude Include="Source\Effekseer\Effekseer.h" />
+    <ClInclude Include="Source\Effekseer\EffekseerRendererDX9.h" />
+    <ClInclude Include="Source\Effekseer\EffekseerSoundAL.h" />
+    <ClInclude Include="Source\Effekseer\EffekseerSoundXAudio2.h" />
+    <ClInclude Include="Source\mslib\Camera.h" />
+    <ClInclude Include="Source\mslib\DrawTechnique.h" />
+    <ClInclude Include="Source\Sample\Sample1\Sample1.h" />
+    <ClInclude Include="Source\mslib\SceneManager.h" />
+    <ClInclude Include="Source\mslib\Debug.h" />
+    <ClInclude Include="Source\mslib\LockOn.h" />
+    <ClInclude Include="Source\mslib\RadioControl.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Source\dxlib.h" />
+    <ClInclude Include="Source\main_system\GameWindow.h" />
+    <ClInclude Include="Source\main_system\Launcher.h" />
+    <ClInclude Include="Source\main_system\Screen.h" />
+    <ClInclude Include="Source\mslib\Activity.h" />
+    <ClInclude Include="Source\mslib\AspectRatio.h" />
+    <ClInclude Include="Source\mslib\Billboard.h" />
+    <ClInclude Include="Source\mslib\char_convert.hpp" />
+    <ClInclude Include="Source\mslib\Component.h" />
+    <ClInclude Include="Source\mslib\CreateBuffer.h" />
+    <ClInclude Include="Source\mslib\Cube.h" />
+    <ClInclude Include="Source\mslib\Device.h" />
+    <ClInclude Include="Source\mslib\DinputController.h" />
+    <ClInclude Include="Source\mslib\DinputKeyboard.h" />
+    <ClInclude Include="Source\mslib\DinputMouse.h" />
+    <ClInclude Include="Source\mslib\DirectInput.h" />
+    <ClInclude Include="Source\mslib\dx9math.h" />
+    <ClInclude Include="Source\mslib\Effect.h" />
+    <ClInclude Include="Source\mslib\EffekseerDX.h" />
+    <ClInclude Include="Source\mslib\enum_system.hpp" />
+    <ClInclude Include="Source\mslib\file_path.hpp" />
+    <ClInclude Include="Source\mslib\GameObject.h" />
+    <ClInclude Include="Source\mslib\Initializer.h" />
+    <ClInclude Include="Source\mslib\Loader.h" />
+    <ClInclude Include="Source\mslib\Manager.h" />
+    <ClInclude Include="Source\mslib\Mesh.h" />
+    <ClInclude Include="Source\mslib\MsImGui.h" />
+    <ClInclude Include="Source\mslib\mslib.hpp" />
+    <ClInclude Include="Source\mslib\mslib_struct.h" />
+    <ClInclude Include="Source\mslib\Reference.h" />
+    <ClInclude Include="Source\mslib\Renderer.h" />
+    <ClInclude Include="Source\mslib\RenderState.h" />
+    <ClInclude Include="Source\mslib\SamplerState.h" />
+    <ClInclude Include="Source\mslib\Sphere.h" />
+    <ClInclude Include="Source\mslib\Texture.h" />
+    <ClInclude Include="Source\mslib\Transform.h" />
+    <ClInclude Include="Source\mslib\Vertex3d.h" />
+    <ClInclude Include="Source\mslib\WindowsAPI.h" />
+    <ClInclude Include="Source\mslib\Audio.h" />
+    <ClInclude Include="Source\mslib\XInputDX.h" />
+    <ClInclude Include="Source\mslib\XModel.h" />
+    <ClInclude Include="Source\mslib\RectTransform.h" />
+    <ClInclude Include="Source\mslib\Sprite.h" />
+    <ClInclude Include="Source\mslib\XModelObject.h" />
+    <ClInclude Include="Source\mslib\SphereObject.h" />
+    <ClInclude Include="Source\Sample\Sample2\Sample2.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6DB8D400-A981-41CE-9E76-D3098C0C1535}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>sample</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)</OutDir>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>.\;Source\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9d.lib;dinput8.lib;dxguid.lib;xaudio2.lib;xinput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>.\;Source\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;xaudio2.lib;xinput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

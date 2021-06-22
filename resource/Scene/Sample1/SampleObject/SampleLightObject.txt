@@ -1,0 +1,11 @@
+#=============================================================================
+# SampleLightObject.txt
+# 2019/08/18
+# 14:42:51
+#=============================================================================
+#Set Transform_Position
+Transform_Position = 0.000000 5.000000 0.000000
+#Set Transform_Rotation
+Transform_Rotation = 0.000000 0.000000 0.000000
+#Set Transform_Scale
+Transform_Scale = 1.000000 1.000000 1.000000
